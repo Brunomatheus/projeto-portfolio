@@ -33,6 +33,9 @@ header{
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  position: sticky;
+  top:0;
+  z-index: 3;
 
 }
 nav#menu ul {
@@ -210,12 +213,12 @@ article#video .video-container{
   border-left-width: 15px;
   cursor: pointer;
 }
-#projeto-conatiner .foto{
+#projeto-container .foto{
   width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 footer{
   background-color: var(--destaque);
@@ -247,5 +250,6 @@ footer a:hover{
     aspect-ratio: 1/1;
     max-width: 20%;
     max-height: 200px;
+    border-radius: 10px;
   }
 }
